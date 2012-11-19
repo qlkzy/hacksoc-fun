@@ -80,3 +80,12 @@ even' n = odd' (n - 1)
 odd' 0 = False
 odd' n = even' (n - 1)
 
+-- for n == 0, even' and odd' are correct
+--
+-- for n == k, even' k -> odd'  k-1
+--             odd'  k -> even' k-1
+--
+-- so if odd' and even' (k-1) are correct, then
+-- odd' and even' k are correct
+--
+-- yeah, so I suck at phrasing inductive proofs
