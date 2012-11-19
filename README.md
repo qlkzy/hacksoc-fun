@@ -1,3 +1,3 @@
-# Hacksock Functional Programming Course
+# HackSoc Functional Programming Course
 
 
